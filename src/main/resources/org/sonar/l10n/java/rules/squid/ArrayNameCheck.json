@@ -1,0 +1,13 @@
+{
+  "title": "[] should follow the array object",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "bug",
+    "pitfall"
+  ],
+  "defaultSeverity": "MAJOR"
+}

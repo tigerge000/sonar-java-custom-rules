@@ -1,0 +1,18 @@
+<p>ConstantNameCheck Check</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+    private static final String z; // Noncompliant
+
+    private static final String Hello_WORLD = "Hello WOLD"; // Noncompliant
+
+    private static final String NO_123_ZZZ = "sdddsaa";// Noncompliant
+
+     private static final String HELLOWORLDMYNAMEISLILEI = "Hello WOLD MY NAME IS LI LEI"; // Noncompliant
+
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+    private static final String BAIDU_HOST_NAME = "http://www.baidu.com";
+
+    private static final String V = "1.0";
+</pre>

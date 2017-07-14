@@ -1,0 +1,13 @@
+{
+  "title": "The Name Of Abstract Class should use Abstract or Base first",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "bug",
+    "pitfall"
+  ],
+  "defaultSeverity": "CRITICAL"
+}

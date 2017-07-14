@@ -1,0 +1,29 @@
+<p>LowerCameCase Check</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+    private String ID; // Noncompliant
+    private String UserName; // Noncompliant
+    private String password;
+
+    public String getUserInfo(String info) {
+        String Yes = "Yes"; // Noncompliant
+    }
+
+    public void GetPassword(){}// Noncompliant
+
+    public void getUser(String UserInfo){}// Noncompliant
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+    private String id;
+    private String userName;
+    private String password;
+
+    public String getUserInfo(String info) {
+        String yes = "Yes";
+    }
+
+    public void getPassword(){}
+
+    public void getUser(String userInfo){}
+</pre>

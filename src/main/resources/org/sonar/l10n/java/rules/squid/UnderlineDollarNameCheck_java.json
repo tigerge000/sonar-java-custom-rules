@@ -1,0 +1,13 @@
+{
+  "title": "Can't use underline or Dollar first or end As Name",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "bug",
+    "pitfall"
+  ],
+  "defaultSeverity": "CRITICAL"
+}

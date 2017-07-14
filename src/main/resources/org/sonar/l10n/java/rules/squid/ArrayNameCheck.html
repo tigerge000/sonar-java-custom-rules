@@ -1,0 +1,25 @@
+<p>AbstractClassNameCheck Check
+    [] should follow the array object
+</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+
+    private String errorTemp[];// Noncompliant
+
+    private String[] rightTemp;
+
+    public void getTemp(String noTemp[]){// Noncompliant
+        int intHi[];// Noncompliant
+        int[] intNo;
+    }
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+    private String[] errorTemp;// Noncompliant
+    private String[] rightTemp;// Noncompliant
+
+    public void getTemp(String[] noTemp){// Noncompliant
+        int[] intHi;// Noncompliant
+        int[] intNo;// Noncompliant
+    }
+</pre>

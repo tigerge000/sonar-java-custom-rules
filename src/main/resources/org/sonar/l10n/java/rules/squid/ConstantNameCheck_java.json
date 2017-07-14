@@ -1,0 +1,13 @@
+{
+  "title": "Constant Name rule should use UppCase,And each word show spilt as _",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "bug",
+    "pitfall"
+  ],
+  "defaultSeverity": "CRITICAL"
+}
