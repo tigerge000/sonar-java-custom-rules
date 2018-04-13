@@ -17,3 +17,6 @@
 (6)异常类命名检查
 
 (7)中括号数组检查
+
+编写规范参考:https://testerhome.com/topics/8105
+整个sonar插件部署参考:https://testerhome.com/topics/9352
