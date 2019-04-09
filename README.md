@@ -18,5 +18,5 @@
 
 (7)中括号数组检查
 
-编写规范参考:https://testerhome.com/topics/8105
-整个sonar插件部署参考:https://testerhome.com/topics/9352
+编写规范参考:https://www.cnblogs.com/feihufeihu/p/10676304.html
+整个sonar插件部署参考:https://www.cnblogs.com/feihufeihu/p/10676314.html
