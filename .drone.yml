@@ -5,7 +5,7 @@ steps:
 - name: build
   image: maven:3-alpine
   commands:
-    - mmvn -DskipTests clean package
+    - mvn -DskipTests clean package
 
 - name: publish
   image: plugins/docker
