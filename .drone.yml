@@ -1,0 +1,26 @@
+kind: pipeline
+name: default
+
+steps:
+- build:
+    image: maven:3-alpine
+    commands:
+      - mmvn -DskipTests clean package
+
+- publish:
+    image: plugins/docker
+    settings:
+      mirror: https://docker.mirrors.ustc.edu.cn
+      registry: registry.cn-hangzhou.aliyuncs.com # 仓库
+      repo: registry.cn-hangzhou.aliyuncs.com/lm93129/drone # docker仓库地址
+      tags: latest
+      password:
+        from_secret: docker_password
+      username:
+        from_secret: docker_username
+      purge: true
+    when:
+      branch:
+        - master
+      status:
+        - success
