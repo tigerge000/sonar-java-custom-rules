@@ -21,7 +21,7 @@ steps:
     purge: true
   when:
     branch:
-      - master
+    - master
       
 - name: publish_autotag
   image: plugins/docker
