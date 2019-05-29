@@ -28,7 +28,7 @@ steps:
   settings:
     mirror: https://docker.mirrors.ustc.edu.cn
     registry: registry-internal.cn-hangzhou.aliyuncs.com # 仓库
-    repo: registry-internal.cn-hangzhou.aliyuncs.com/lm93129/drone-test # docker仓库地址
+    repo: registry-internal.cn-hangzhou.aliyuncs.com/lm93129/drone # docker仓库地址
     auto_tag: true
     password:
       from_secret: docker_password
